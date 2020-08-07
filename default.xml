@@ -20,7 +20,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="LineageOS/android_build" groups="pdk" >
+  <project path="build/make" name="fzkangga/Lineage_android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -147,7 +147,7 @@
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" remote="aosp" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk" remote="aosp" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" />
-  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
+  <project path="external/gptfdisk" name="fzkangga/Lineage_android_external_gptfdisk" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk" remote="aosp" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" remote="aosp" />
@@ -354,8 +354,8 @@
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/av" name="fzkangga/Lineage_android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="fzkangga/Lineage_android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -492,7 +492,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="LineageOS/android_packages_apps_SecureElement" groups="apps_se,pdk-fs" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="fzkangga/Lineage_android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
