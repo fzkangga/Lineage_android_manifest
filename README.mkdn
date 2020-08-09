@@ -9,11 +9,11 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/fzkangga/Lineage_android_manifest.git -b lineage-16.0
+repo init -u git://github.com/fzkangga/Lineage_android_manifest.git -b los-fzk-pie
 ```
 To initialize a shallow clone your local repository using the LineageOS trees, use a command like this:
 ```
-repo init --depth=1 -u git://github.com/fzkangga/Lineage_android_manifest.git -b lineage-16.0
+repo init --depth=1 -u git://github.com/fzkangga/Lineage_android_manifest.git -b los-fzk-pie
 ```
 Then to sync up:
 ```
